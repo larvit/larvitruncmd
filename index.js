@@ -41,7 +41,7 @@ function runCmd(cmdStr, options, cb) {
 		console.info(cmdStr);
 	}
 
-	cmd	= spawn(cmdStr.split(' ')[0], cmdStr.split(' ').splice(0, 1), options.spawnOptions);
+	cmd	= spawn(cmdStr.split(' ')[0], cmdStr.split(' ').splice(1), options.spawnOptions);
 
 	cmd.on('error', cb);
 
