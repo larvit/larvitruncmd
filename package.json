@@ -1,0 +1,24 @@
+{
+  "name": "larvitruncmd",
+  "version": "0.1.0",
+  "description": "Run a shell command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larvit/larvitruncmd.git"
+  },
+  "author": "lillem4n <lilleman@larvit.se>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larvit/larvitruncmd/issues"
+  },
+  "homepage": "https://github.com/larvit/larvitruncmd#readme",
+  "dependencies": {
+    "console-error": "0.0.4",
+    "console-info": "0.0.5",
+    "console-warn": "0.0.4"
+  }
+}
